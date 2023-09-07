@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CurrencyCalculator",
+    "slug": "CurrencyCalculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aggelospad.CurrencyCalculator"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6781874c-f1a0-475d-bdcf-e5d8c5443a25"
+      }
+    }
+  }
+}
