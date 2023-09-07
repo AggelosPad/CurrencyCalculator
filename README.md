@@ -17,5 +17,7 @@ npx expo start
 
 ## App screenshots:
 
-![Screenshot](README1.jpg)
-![Screenshot2](README2.jpg)
+
+<img src="https://imgur.com/FB51ElU" width="600" height="300">
+
+<img src="https://imgur.com/tfvRBa0" width="600" height="300">
