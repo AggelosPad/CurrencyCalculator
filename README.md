@@ -17,5 +17,5 @@ npx expo start
 
 ## App screenshots:
 
-![Screenshot](README1.png)
-![Screenshot2](README2.png)
+![Screenshot](README1.jpg)
+![Screenshot2](README2.jpg)
