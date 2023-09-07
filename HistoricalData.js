@@ -3,8 +3,8 @@ import { View, Text, StyleSheet,Image,Dimensions } from 'react-native';
 import axios from 'axios';
 import { LineChart } from 'react-native-chart-kit';
 import {Picker} from '@react-native-picker/picker';
-import styles from './src/components/HistoricalDataStyles';
 
+ 
 
 const HistoricalData = () => {
     const [baseCurrency, setBaseCurrency] = useState(null);
@@ -109,7 +109,7 @@ const HistoricalData = () => {
                             backgroundColor: "#e26a00",
                             backgroundGradientFrom: "#121212",
                             backgroundGradientTo: "#121212",
-                            decimalPlaces: 2,
+                            decimalPlaces: 5,
                             color: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
                             labelColor: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
                             style: {
@@ -134,5 +134,43 @@ const HistoricalData = () => {
     );
 };
 
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'space-around',
+        backgroundColor: '#121212',
+        padding: 20,
+    },
+    mainTitle: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        marginBottom: 20,
+        color: '#E0E0E0',
+    },
+    title: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        marginBottom: 10,
+        color: '#E0E0E0',
+    },
+    picker: {
+        width: '100%',
+        height: 60,
+        marginBottom: 10,
+        backgroundColor: '#212121',
+        color: '#E0E0E0',
+        marginBottom: 10,
+        marginTop:10,
+    },
+    logo: {
+        marginBottom: 20
+    },
+    chart: {
+        flex: 0.6,
+        marginBottom: 20,
+        borderRadius: 16,
+    }
+});
 
 export default HistoricalData;
