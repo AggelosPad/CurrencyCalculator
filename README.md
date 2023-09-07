@@ -15,6 +15,8 @@ To run the project, go to the main directory and:
 npx expo start
 ```
 
+To use the Historical Data tab swipe right
+
 ## App screenshots:
 
 ![Screenshot](README1.jpg)
